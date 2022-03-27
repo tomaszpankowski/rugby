@@ -21,7 +21,7 @@ class IndexS1 extends Component{
                     <Col xs={12} md={{span:6,offset:6}} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start text-shadow"> 
                             <img src="img/navbar_logo.png" className="img-fluid" alt="logo"/>
-                            <h2 className="display-6 text-white-50 text-uppercase">
+                            <h2 className="display-6 text-info text-uppercase">
                                 Lorem ipsum dolor
                             </h2>
                             <p className="lead text-white">
@@ -30,7 +30,7 @@ class IndexS1 extends Component{
                                 quae ab illo inventore veritatis et quasi architecto beatae vitae 
                                 dicta sunt explicabo. 
                             </p>
-                            <Link to=".html" className="btn btn-outline-light rounded-pill">Lorem ipsum!</Link>
+                            <Link to=".html" className="btn btn-outline-info rounded-pill">Lorem ipsum!</Link>
                         </div>
                     </Col>
                 </Row>
