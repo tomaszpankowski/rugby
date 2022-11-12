@@ -1,4 +1,15 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation:portrait){
+    .about-s1{
+        background-position-x: center!important;
+    }
+    .index-s1{
+        background-position-x: center!important;
+    }
+    .services-s1{
+        background-position-x: center!important;
+    }
+}
 
 .services{
     *{
@@ -16,7 +27,10 @@
         text-shadow: $text__shadow;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "KaushanScript";
+    letter-spacing: 2px;
+}
 nav{
     z-index: 10;
 }
